@@ -1,7 +1,7 @@
 # HumbleZhao
 motto: Hustle &amp; Work hard
 
-#Winter Holiday studying
+# Winter Holiday studying
 
 |日期|标题|封面|学习过程|
 |------|------|------|------|
