@@ -1,7 +1,4 @@
-# HumbleZhao
-motto: Hustle &amp; Work hard
-
-## Winter Holiday studying
+# Winter Holiday studying
 
 |日期|标题|封面|学习过程|
 |------|------|------|------|
@@ -12,5 +9,7 @@ motto: Hustle &amp; Work hard
 |1/12/23|[卷积初步认识](https://www.bilibili.com/video/BV1Vd4y1e7pj/?spm_id_from=333.999.0.0&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212231351-347218ff-bafd-4ad4-8351-d882027bcdd7.png" width="150" height=auto alt="convolution"/><br/>|卷积初步认识后，进行[python语言](https://www.bilibili.com/video/BV1ex411x7Em/?spm_id_from=333.999.top_right_bar_window_custom_collection.content.click&vd_source=905b1a936b14f4596f66bae3f952df19)的学习|
 |1/14/23|[初步理解贝叶斯定理](https://www.bilibili.com/video/BV1R7411a76r/?spm_id_from=333.999.0.0&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212477767-741a1c01-b846-4712-84d4-e620cf71d83f.png" width="150" height=auto alt="贝叶斯定理"/><br/>||
 
+## HumbleZhao
+motto: Hustle &amp; Work hard
 
 
