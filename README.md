@@ -8,6 +8,10 @@
 |1/11/23|[alexnet的第二遍读论文](https://www.bilibili.com/video/BV1hq4y157t1/?spm_id_from=333.788&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/211567059-cf8b36a5-a6ce-4173-a39f-30e696ed3a88.png" width="150" height=auto alt="thesis2"/><br/>|卷积知识欠缺，后续看[吴恩达老师课程](https://search.bilibili.com/all?vt=47028531&keyword=%E5%90%B4%E6%81%A9%E8%BE%BE&from_source=webtop_search&spm_id_from=333.788&search_source=5)以及SGD定义，正则项，池化层等技术解释(神经网络方面可译性，可解释性仍较低)|
 |1/12/23|[卷积初步认识](https://www.bilibili.com/video/BV1Vd4y1e7pj/?spm_id_from=333.999.0.0&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212231351-347218ff-bafd-4ad4-8351-d882027bcdd7.png" width="150" height=auto alt="convolution"/><br/>|卷积初步认识后，进行[python语言](https://www.bilibili.com/video/BV1ex411x7Em/?spm_id_from=333.999.top_right_bar_window_custom_collection.content.click&vd_source=905b1a936b14f4596f66bae3f952df19)的学习|
 |1/14/23|[初步理解贝叶斯定理](https://www.bilibili.com/video/BV1R7411a76r/?spm_id_from=333.999.0.0&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212477767-741a1c01-b846-4712-84d4-e620cf71d83f.png" width="150" height=auto alt="贝叶斯定理"/><br/>|在贝叶斯定理中，证据不应直接决定你的看法，而是更新看法|
+|1/16/23|[二项分布](https://www.bilibili.com/video/BV1Bz411b7Jy/?spm_id_from=333.999.0.0&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212915569-25af3293-a3f1-4b0b-84e6-839452103113.png" width="150" height=auto alt="二项分布"/><br/>|回顾高中知识，加深理解|
+|1/17/23|[C++函数模板学习](https://www.bilibili.com/video/BV1et411b73Z?p=168&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212916334-f8a673fc-07c7-456e-ad57-e9cd411ff67a.png" width="150" height=auto alt="arraytemplate"/><br/>|学习函数模板基本使用|
+
+
 
 ## HumbleZhao
 motto: Hustle &amp; Work hard
