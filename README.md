@@ -11,7 +11,7 @@
 |1/16/23|[二项分布](https://www.bilibili.com/video/BV1Bz411b7Jy/?spm_id_from=333.999.0.0&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212915569-25af3293-a3f1-4b0b-84e6-839452103113.png" width="150" height=auto alt="二项分布"/><br/>|回顾高中知识，加深理解|
 |1/17/23|[C++函数模板学习](https://www.bilibili.com/video/BV1et411b73Z?p=168&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/212916334-f8a673fc-07c7-456e-ad57-e9cd411ff67a.png" width="150" height=auto alt="arraytemplate"/><br/>|学习函数模板基本使用|
 |1/19/23|[C++类模板学习](https://www.bilibili.com/video/BV1et411b73Z?p=184&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/213386210-39434755-1944-43b5-ac20-e0b06296f87e.png" width="150" height=auto alt="类模板"/><br/>|学会基本使用，缺乏实践项目。准备尝试实践项目|
-
+|1/20/23|[C++ STL vector初步使用](https://www.bilibili.com/video/BV1et411b73Z?p=185&vd_source=905b1a936b14f4596f66bae3f952df19)||跟着初步实现vector的各种功能以及用法|
 
 
 ## HumbleZhao
