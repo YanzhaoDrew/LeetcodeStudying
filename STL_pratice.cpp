@@ -3,6 +3,7 @@ using namespace std;
 #include<vector>
 #include<algorithm>
 #include<string>
+#include<deque>
 
 void MyPrint(const int& val){
     cout << val << endl;
@@ -306,6 +307,100 @@ void test05(){
     cout << name << endl;
 }
 
+//deque数组的打印
+void print_deque(const deque<int> &d){
+    for (deque<int>::const_iterator it = d.begin(); it != d.end(); it++)
+        cout << *it << " ";
+    cout << endl;
+}
+//大小
+void judge_deque(const deque<int> &d){
+    if(d.empty())
+    {
+        cout << "该deque数组为空" << endl;
+    }
+    else{
+        cout << "该deque数组不为空"<< endl;
+        cout << "大小为" << d.size() << endl;
+    }
+}
+//deque类使用
+void test06(){
+    //构造
+    deque<int>d1;
+    for (int i = 1; i < 11; i++){
+        d1.push_back(i);
+    }
+    print_deque(d1);
+    deque<int>d2(d1.begin(), d1.end());
+    print_deque(d2);
+    deque<int>d3(10, 99);
+    print_deque(d3);
+    deque<int>d4(d2);
+    print_deque(d4);
+
+    //赋值
+    d4.assign(d3.begin(), d3.end());
+    print_deque(d4);
+    d4.assign(8,88);
+    print_deque(d4);
+    d4 = d3;
+    print_deque(d4);
+
+    //大小
+    judge_deque(d4);
+    d4.resize(15);
+    print_deque(d4);
+    judge_deque(d4);
+    d4.resize(20, 100);
+    print_deque(d4);
+    judge_deque(d4);
+
+    //插入与删除
+    deque<int>d5;
+    d5.push_back(10);
+    d5.push_back(20);
+    d5.push_front(30);
+    d5.push_front(40);
+    print_deque(d5);
+
+    d5.pop_back();
+    d5.pop_front();
+    print_deque(d5);
+    
+    d5.insert(d5.begin(), 99);
+    d5.insert(d5.begin(), 2, 77);
+    d5.insert(d5.end(), d4.begin(), d4.end());
+    print_deque(d5);
+    d5.erase(d5.end());
+    print_deque(d5);
+    d5.clear();
+    print_deque(d5);
+    judge_deque(d5);
+
+    //deque数据存取
+    for(int i = 0; i < d4.size(); i++){
+        cout << d4[i] << " ";
+    }
+    cout << endl;
+
+    for (int j = 0 ; j < d4.size(); j++){
+        cout << d4.at(j) << " ";
+    }
+    cout << endl;
+    cout <<"deque first element is : " << d4.front() << endl;
+    cout << "deque last element is : " << d4.back() << endl;
+
+    //排序sort, deque or vector is avaliable
+    deque<int> d6;
+    d6.push_back(20);
+    d6.push_back(30);
+    d6.push_front(40);
+    d6.push_front(60);
+    print_deque(d6);
+    sort(d6.begin(), d6.end());
+    print_deque(d6);
+}
 int main(){
     //test01();
 
@@ -317,8 +412,8 @@ int main(){
 
     //test05();
 
-    test001();
+    //test001();
     
-    
+    test06();
     return 0;
 }
