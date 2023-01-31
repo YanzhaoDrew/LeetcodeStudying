@@ -14,7 +14,7 @@
 |1/20/23|[C++ STL vector初步使用](https://www.bilibili.com/video/BV1et411b73Z?p=185&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/215251936-16fe2dcc-9f79-41d0-b1ac-a8f24640e33c.png" width="150" height=auto alt="vector类的一小部分"/><br/>|跟着初步实现vector的各种功能以及用法|
 |1/25/23|[C++ STL string类学习](https://www.bilibili.com/video/BV1et411b73Z?p=190&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/215251793-3cfb9006-376c-47c1-8e7f-6fd73f2a7255.png" width="150" height=auto alt="string类使用"/><br/>|看完视频后续进行自己尝试实现string类的功能使用|
 |1/27/23|[C++STL vector类学习](https://www.bilibili.com/video/BV1et411b73Z?p=203&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/215257162-add0780d-60ca-4ce2-bb59-723981b695d0.png" width ="150" height=auto alt="vector"/><br/>|观看理解完vector类功能的使用，后续进行实践操作|
-|1/30/23|[C++STL]()||将平时STL练习尝试的cpp文件与github同步|
+|1/30/23|[C++STL](https://www.bilibili.com/video/BV1et411b73Z?p=204&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/215480699-4a79d4f9-e237-493c-b622-f2b448d8163b.png" width="150" height=auto alt="deque"/><br/>|将平时STL练习尝试的cpp文件与github同步；完成对于deque的学习，与功能的尝试与使用|
 
 
 
