@@ -35,6 +35,7 @@ void test01(){
 }
 
 //不同数据类型的vector遍历，例如类，指针
+/*
 class Person{
     public:
     string name;
@@ -84,6 +85,7 @@ void test03(){
     }
     cout << "----------------------" << endl;
 }
+*/
 //嵌套vector
 void test04(){
     vector<vector<int>>v;
@@ -401,6 +403,64 @@ void test06(){
     sort(d6.begin(), d6.end());
     print_deque(d6);
 }
+
+//STL_1 case:评委打分
+class Person{
+public:
+    string name;
+    int score;
+    Person(const string &name, const int &score);
+};
+Person::Person(const string &name, const int &score){
+        this->name = name;
+        this->score = score;
+}
+void creatPerson(vector<Person>& v){
+    string nameset;
+    nameset.assign("ABCDE");
+    int flag = 0;
+    for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
+        Person("成员", 0);
+        (*it).name += nameset[flag];
+        flag++;
+    }
+}
+void setscore(vector<Person> &v){
+    for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
+    deque<int>d;
+        for (int j = 0; j < 10; j++){
+            int s = rand()%31 + 70;
+            d.push_back(s); 
+        } 
+        sort(d.begin(), d.end());
+        d.pop_back();
+        d.pop_front();
+        int add = 0;
+        for (deque<int>::iterator it = d.begin(); it != d.end(); it++){
+        add += *it;
+        }
+        int average = add / d.size();
+        it->score = average;
+    }
+}
+void printScore(vector<Person> &v){
+    for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
+        cout << "姓名为：" << (*it).name << " 得分为：" << (*it).score << endl;
+    }
+}
+void test07(){
+    //创建成员
+    vector<Person>v;
+    creatPerson(v);
+    //测试
+    for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
+        cout << "姓名为：" << it->name << " 得分为：" << it->score << endl;
+    }
+    //评委打分
+    setscore(v);
+    //输出成员评分
+    printScore(v);
+}
 int main(){
     //test01();
 
@@ -414,6 +474,8 @@ int main(){
 
     //test001();
     
-    test06();
+    //test06();
+    
+    test07();
     return 0;
 }
