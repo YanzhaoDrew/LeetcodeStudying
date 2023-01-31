@@ -405,6 +405,7 @@ void test06(){
 }
 
 //STL_1 case:评委打分
+//五名选手ABCDE，10个评委分别对每个选手打分，去除最高分和最低分，取平均分
 class Person{
 public:
     string name;
@@ -415,21 +416,23 @@ Person::Person(const string &name, const int &score){
         this->name = name;
         this->score = score;
 }
+//创建选手
 void creatPerson(vector<Person>& v){
     string nameset;
     nameset.assign("ABCDE");
-    int flag = 0;
-    for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
-        Person("成员", 0);
-        (*it).name += nameset[flag];
-        flag++;
+    for (int flag = 0; flag < 5; flag++){
+        Person p("选手", 0);
+        p.name += nameset[flag];
+        v.push_back(p);
     }
 }
+//评委评分，确定平均分
 void setscore(vector<Person> &v){
     for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
     deque<int>d;
         for (int j = 0; j < 10; j++){
-            int s = rand()%31 + 70;
+            int s = rand()%21 + 70;//使用随机数，并且控制在70到90之间
+            //但这个随机数是确定的，每次都一样
             d.push_back(s); 
         } 
         sort(d.begin(), d.end());
@@ -443,6 +446,7 @@ void setscore(vector<Person> &v){
         it->score = average;
     }
 }
+//输出每个选手的成绩
 void printScore(vector<Person> &v){
     for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
         cout << "姓名为：" << (*it).name << " 得分为：" << (*it).score << endl;
@@ -452,10 +456,6 @@ void test07(){
     //创建成员
     vector<Person>v;
     creatPerson(v);
-    //测试
-    for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
-        cout << "姓名为：" << it->name << " 得分为：" << it->score << endl;
-    }
     //评委打分
     setscore(v);
     //输出成员评分
