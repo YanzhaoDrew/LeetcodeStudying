@@ -4,6 +4,7 @@ using namespace std;
 #include<algorithm>
 #include<string>
 #include<deque>
+#include<time.h>
 
 void MyPrint(const int& val){
     cout << val << endl;
@@ -428,6 +429,9 @@ void creatPerson(vector<Person>& v){
 }
 //评委评分，确定平均分
 void setscore(vector<Person> &v){
+    //使得每次的随机数都不同
+    srand((unsigned int)time(NULL));
+
     for (vector<Person>::iterator it = v.begin(); it != v.end(); it++){
     deque<int>d;
         for (int j = 0; j < 10; j++){
@@ -461,6 +465,155 @@ void test07(){
     //输出成员评分
     printScore(v);
 }
+#include<stack>
+//stack使用
+void test08(){
+    stack<int>s;
+    for (int i = 0; i < 10; i++)
+        s.push(i);
+    cout << s.size() << endl;
+    while (!s.empty()){
+        cout << s.top() << " ";
+        s.pop();
+    }
+    cout << endl << s.size() << endl;
+}
+
+#include<queue>
+//queue使用
+void test09(){
+    queue<int>q1;
+    //构造
+    //queue<int>q2(q1);
+    //q2 = q1;
+    q1.push(40);
+    q1.push(20);
+    q1.push(30);
+    q1.push(10);
+    cout << q1.size() << endl;
+    while (!q1.empty())
+    {
+        cout << "队头元素为：" <<q1.front() << endl;
+        cout << "队尾元素为：" << q1.back() << endl;
+        q1.pop();
+    }
+    cout << q1.size() << endl;
+}
+
+#include<list>
+void print_list(const list<int>&l){
+    for (list<int>::const_iterator it = l.begin(); it != l.end(); it++)
+        cout << *it << " ";
+    cout << endl;
+}
+void information_list(const list<int>&l){
+    if (l.empty()){
+        cout << "list 为空" << endl;
+    }
+    else{
+        cout << "list 不为空"<< endl;
+        cout << "list 元素个数为："<< l.size() << endl;
+    }
+}
+bool compare(int a, int b){
+    return a > b;
+}
+void test10(){
+    //构造
+    list<int>l;
+    l.push_back(20);
+    l.push_back(10);
+    l.push_back(50);
+    l.push_back(30);
+    print_list(l);
+
+    list<int>l1(l.begin(), l.end());
+    print_list(l1);
+
+    list<int>l2(l1);
+    //l2 = l;
+    print_list(l2);
+    
+    list<int>l3(10, 99);
+    print_list(l3);
+
+    //赋值与交换
+    l1.assign(l3.begin(), l3.end());
+    print_list(l1);
+
+    l1.assign(10, 33);
+    print_list(l1);
+
+    l1 = l2;
+    cout << "交换前：" << endl;
+    print_list(l1);
+    print_list(l3);
+    l1.swap(l3);
+    cout << "l1与l3交换后：" << endl;
+    print_list(l1);
+    print_list(l3);
+    
+    //大小
+    cout << "对于l："<< endl;
+    print_list(l);
+    information_list(l);
+    l.resize(10, 88);
+    print_list(l);
+    information_list(l);
+    l.resize(2);
+    print_list(l);
+    information_list(l);
+
+    cout << "------------------" << endl;
+    //插入与删除
+    list<int>l4;
+    l4.assign(l3.begin(), l3.end());
+    print_list(l4);
+    l4.push_back(100);
+    l4.push_front(200);
+    l4.push_front(100);
+    l4.push_back(200);
+    print_list(l4);
+    
+    l4.pop_front();
+    l4.pop_back();
+    l4.insert(l4.begin(), 66);
+    l4.insert(l4.end(), 2, 55);
+    print_list(l4);
+    list<int>::iterator it = l4.begin();
+    it++;
+    it++;
+    l4.erase(it);
+    print_list(l4);
+
+    //特殊功能，能够移除指定元素的作用域
+    l4.remove(55);
+    print_list(l4);
+
+    l4.clear();
+    information_list(l4);
+
+    //list数据存取
+    list<int>l5;
+    //srand((unsigned int)time(NULL));
+    for( int i = 0 ; i < 8; i++){
+        l5.push_back(rand()%10);
+    }
+    print_list(l5);
+    cout << "第一个元素为：" << l5.front() << endl;
+    cout << "最后一个元素为：" << l5.back() << endl;
+
+    //反转与排序！！！----- 使用l5作为例子
+    l5.reverse();
+    print_list(l5);
+    
+    //list无法用algorithm库中的sort()来排序，因为list的迭代器不是随机的，是双向的
+    l5.sort();//默认从小到大
+    print_list(l5);
+
+    l5.sort(compare);//改为从大到小
+    print_list(l5);
+}
 int main(){
     //test01();
 
@@ -476,6 +629,12 @@ int main(){
     
     //test06();
     
-    test07();
+    //test07();
+
+    //test08();
+    
+    //test09();
+
+    test10();
     return 0;
 }
