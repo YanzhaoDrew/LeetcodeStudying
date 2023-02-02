@@ -614,6 +614,162 @@ void test10(){
     l5.sort(compare);//改为从大到小
     print_list(l5);
 }
+
+//set容器
+#include<set>
+void print_set(const set<int>&s){
+    for (set<int>::const_iterator it = s.begin(); it != s.end(); it++){
+        cout << *it << " ";
+    }
+    cout << endl;
+}
+void information_set(const set<int>&s){
+    if (s.empty())
+        cout << "set为空" << endl;
+    else
+    {
+        cout << "set不为空" << endl;
+        cout << "set大小为：" <<s.size() << endl;        
+    }
+}
+void judge_set(pair<set<int>::iterator, bool> &judge){
+    if (judge.second){
+        cout << "插入成功" << endl;
+        cout << "插入元素为：" << *judge.first << endl;
+    }
+    else
+        cout << "插入失败" << endl;
+}
+class Mycompare{
+    public:
+    bool operator()(int a, int b){
+        return a > b;
+    }
+};
+class ComparePerson{
+    public:
+    bool operator()(const Person&p1,const Person&p2){
+        return p1.score < p2.score;
+    }
+};
+void test11(){
+    //构造与赋值
+    set<int>s;
+    s.insert(30);
+    s.insert(10);
+    s.insert(40);
+    s.insert(20);
+    print_set(s);
+
+    //大小与交换
+    information_set(s);
+    set<int>s1;
+    s1.insert(300);
+    s1.insert(100);
+    s1.insert(400);
+    s1.insert(200);
+    cout << "交换前："<<endl;
+    print_set(s);
+    print_set(s1);
+    s.swap(s1);
+    cout << "交换后：" << endl;
+    print_set(s);
+    print_set(s1);
+    
+    cout << "--------------------" << endl;
+    //插入与删除，以s1为例子
+    print_set(s1);
+    s1.erase(s1.begin());//删除的是排序后的第一个元素
+    cout << "第一次删除：" << endl;
+    print_set(s1);
+    s1.erase(30);//指定元素删除
+    cout << "第二次删除: " << endl;
+    print_set(s1);
+    //相当于s1.clear();
+    s1.erase(s1.begin(), s1.end());
+    cout << "set清空后的状态：" << endl;
+    information_set(s1);
+
+    cout << "----------------" << endl;
+    //查找与统计
+    set<int>s2;
+    s2.insert(20);
+    s2.insert(30);
+    s2.insert(40);
+    s2.insert(10);
+    print_set(s2);
+    set<int>::iterator pos = s2.find(30);
+    if(pos != s2.end())
+        cout << "已找到元素：" << *pos << endl;
+    else
+        cout << "未找到元素" << endl;
+    
+    pos = s2.find(100);
+    if(pos != s2.end())
+        cout << "已找到元素：" << *pos << endl;
+    else
+        cout << "未找到元素" << endl;
+    
+    cout << "从set中找到20的统计次数为：" << s2.count(20) << endl;
+    cout << "从set中找到100的统计次数为：" << s2.count(100) << endl;
+    //对于set的统计次数，只可能是1或0，因为set不接受重复的元素
+
+    cout << "------------------" << endl;
+    //set 和 multiset的区别
+    //set不接受重复的数据
+    set<int>s3;
+    pair<set<int>::iterator, bool> judge = s3.insert(10);
+    judge_set(judge);
+    judge = s3.insert(10);
+    judge_set(judge);
+    //multiset接受重复数据，且返回值为该值进入multiset后位置的迭代器
+    multiset<int>s4;
+    s4.insert(20);
+    s4.insert(10);
+    s4.insert(30);
+    multiset<int>::iterator it = s4.insert(20);
+    for (multiset<int>::iterator it = s4.begin(); it != s4.end(); it++){
+        cout << *it << " ";
+    }
+    cout << endl;
+    cout << "插入multiset中的元素为" << *it << endl;
+
+    cout << "------------------------" << endl;
+    //pair对组的创建
+    pair<string, int> p("Tommy", 20);
+    cout << "Name: " << p.first << " Age: " << p.second << endl;
+    pair<string, int> p1 = make_pair("Tina", 18);
+    cout << "Name: " << p1.first << " Age: " << p1.second << endl;
+
+    cout << "------------------------" << endl;
+    //内置类型指定排序规则
+    set<int, Mycompare>s5;
+    s5.insert(30);
+    s5.insert(20);
+    s5.insert(40);
+    s5.insert(10);
+    for (set<int, Mycompare>::iterator it = s5.begin(); it != s5.end(); it++){
+        cout << *it <<" ";
+    }
+    cout << endl;
+
+    //自定义数据类型指定排序规则
+    set<Person, ComparePerson>s6;
+    Person t1("Tommy", 7);
+    Person t2("Victor", 5);
+    Person t3("Ryan", 6);
+    Person t4("Tina", 2);
+
+
+    s6.insert(t1);
+    s6.insert(t2);
+    s6.insert(t3);
+    s6.insert(t4);
+
+    for(set<Person, ComparePerson>::iterator it = s6.begin(); it != s6.end(); it++){
+        cout << "姓名为：" << (*it).name << " 得分为：" << (*it).score << endl;
+    }
+}
 int main(){
     //test01();
 
@@ -635,6 +791,9 @@ int main(){
     
     //test09();
 
-    test10();
+    //test10();
+    
+    test11();
+
     return 0;
 }
