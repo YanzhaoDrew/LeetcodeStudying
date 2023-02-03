@@ -770,6 +770,132 @@ void test11(){
         cout << "姓名为：" << (*it).name << " 得分为：" << (*it).score << endl;
     }
 }
+//map容器,插入后根据key值进行排序
+#include<map>
+    void print_map(const map<int, int>&m){
+        for (map<int, int>::const_iterator it = m.begin(); it != m.end(); it++){
+            cout << "Key: " << (*it).first << " Value: " << (*it).second << endl;
+        }
+        cout << endl;
+    }
+    void information_map(const map<int, int> &m){
+        if (!m.empty()){
+            cout <<"map容器不为空" << endl;
+            cout << "map容器大小为: " << m.size() << endl;
+        }
+        else
+            cout << "map容器为空" << endl;
+    }
+    class mapCompare{
+        public:
+        bool operator()(int a, int b){
+            return a > b;
+        }
+    };
+    void print_map(const map<int, int, mapCompare>&m){
+        for (map<int, int, mapCompare>::const_iterator it = m.begin(); it != m.end(); it++){
+            cout << "Key: " << (*it).first << " Value: " << (*it).second << endl;
+        }
+        cout << endl;
+    }
+    class PersonCompare{
+        public:
+        bool operator()(const Person &p1, const Person &p2){
+            return p1.score > p2.score;
+        }
+    };
+void test12(){
+    //构造
+    map<int, int>m1;
+    m1.insert(pair<int, int>(1, 10));
+    m1.insert(pair<int, int>(2, 10));
+    m1.insert(pair<int, int>(3, 10));
+    m1.insert(pair<int, int>(4, 10));
+    print_map(m1);
+
+    map<int, int>m2(m1);
+    print_map(m2);
+
+    map<int, int>m3;
+    m3 = m1;
+    print_map(m3);
+    m3.clear();
+
+    //大小与交换
+    m3.insert(map<int, int>::value_type(5, 100));
+    m3.insert(map<int, int>::value_type(7, 100));
+    m3.insert(map<int, int>::value_type(6, 100));
+    cout <<"交换前：" << endl;
+    print_map(m1);
+    information_map(m1);
+    print_map(m3);
+    information_map(m3);
+
+    m1.swap(m3);
+
+    cout<<"交换后："<<endl;
+    print_map(m1);
+    information_map(m1);
+    print_map(m3);
+    information_map(m3);
+    
+    cout<<"-------------------------" << endl;
+    //插入与删除
+    print_map(m3);
+    //三种插入方法
+    //第一种
+    m3.insert(pair<int, int>(5, 500));
+    //第二种
+    m3.insert(make_pair(6, 80));
+    //第三种
+    m3.insert(map<int, int>::value_type(7, 50));
+    print_map(m3);
+
+    m3.erase(m3.begin());
+    print_map(m3);
+    m3.erase(5);
+    print_map(m3);
+
+    //和m3.clear();一样的作用
+    //m3.erase(m3.begin(), m3.end());
+    //information_map(m3);
+
+    cout <<"----------------------------" << endl;
+    //查找与统计
+    map<int, int>::iterator pos = m3.find(4);
+
+    if (pos != m3.end()){
+        cout << "找到相应key值为： " << (*pos).first << " 对应value为：" << (*pos).second <<endl;
+    }
+    else
+        cout << "未找到相应key值。" << endl;
+
+    cout << "统计map容器中 key=7 出现的次数为：" << m3.count(7) << endl;
+
+    //排序
+    map<int, int, mapCompare>m4;
+    m4.insert(pair<int, int>(1, 60));
+    m4.insert(pair<int, int>(5, 30));
+    m4.insert(pair<int, int>(4, 40));
+    m4.insert(pair<int, int>(2, 20));
+    m4.insert(pair<int, int>(3, 90));
+    print_map(m4);
+
+    //value represent age
+    map<Person, int, PersonCompare>m5;
+    Person p1("Tom", 8);
+    Person p2("Tina", 5);
+    Person p3("Ryan", 2);
+    Person p4("Kyrie", 10);
+    m5.insert(pair<Person, int>(p1, 24));
+    m5.insert(pair<Person, int>(p2, 19));
+    m5.insert(pair<Person, int>(p3, 23));
+    m5.insert(pair<Person, int>(p4, 20));
+    for (map<Person, int, PersonCompare>::iterator it = m5.begin(); it != m5.end(); it++){
+            cout << "name：" << (*it).first.name << " socore：" << (*it).first.score << " Value: " << (*it).second << endl;
+        }
+        cout << endl;
+}
 int main(){
     //test01();
 
@@ -793,7 +919,9 @@ int main(){
 
     //test10();
     
-    test11();
+    //test11();
+
+    test12();
 
     return 0;
 }
