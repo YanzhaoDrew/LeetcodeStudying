@@ -20,7 +20,8 @@
 |2/2/23|[Python学习]()&[C++STL学习]()&list排序案列完成|<img src ="https://user-images.githubusercontent.com/113875830/216268859-bbf42c0a-cdbd-4f69-8ded-f66ab1aeae58.png" width="150" height=auto alt="list排序案例"/><br/>|完成set类相关的学习与尝试，认识pair对组，和仿函数的创建与使用，后续准备百度笔试|
 |2/3/23|[C++STL map和multimap学习](https://www.bilibili.com/video/BV1et411b73Z?p=235&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/216622479-8d1125b5-9b60-4ff0-bf83-5696a938bc5c.png" width="150" height=auto alt="map容器"/><br/>|完成关于map容器和multimap容器的学习与实现|
 |2/4/23|[C++STL部门员工案例实现](https://github.com/YanzhaoDrew/WHstudying1/tree/main/STLcase)|<img src="https://user-images.githubusercontent.com/113875830/216756947-4f558bc5-b6fa-4be7-8041-076b22d47c1f.png" width="150" height=auto alt="STL部门员工案例"/><br/>|先根据案例要求自己完成实现，后根据解答改进方法|
-|2/6/23|[C++STL函数对象学习]()|<img src ="https://user-images.githubusercontent.com/113875830/216947897-7bb8a50e-b40f-4416-a78f-46673f0849a4.png" width="150" height=auto alt="函数对象"/><br/>|学习完STL中函数对象部分，并且进行功能的实现|
+|2/6/23|[C++STL函数对象学习](https://www.bilibili.com/video/BV1et411b73Z?p=242&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/216947897-7bb8a50e-b40f-4416-a78f-46673f0849a4.png" width="150" height=auto alt="函数对象"/><br/>|学习完STL中函数对象部分，并且进行功能的实现|
+|2/7/23|[C++STL常用算法学习](https://www.bilibili.com/video/BV1et411b73Z?p=254&vd_source=905b1a936b14f4596f66bae3f952df19)|img src="https://user-images.githubusercontent.com/113875830/217292558-7cbcefbb-2ac3-4abf-8dc0-bfac4fe6a132.png" width="150" height=auto alt="STL常用算法"/><br/>|完成遍历，查找，排序常用算法的学习与实现，后续进行原理学习|
 
 
 
