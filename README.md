@@ -22,6 +22,7 @@
 |2/4/23|[C++STL部门员工案例实现](https://github.com/YanzhaoDrew/WHstudying1/tree/main/STLcase)|<img src="https://user-images.githubusercontent.com/113875830/216756947-4f558bc5-b6fa-4be7-8041-076b22d47c1f.png" width="150" height=auto alt="STL部门员工案例"/><br/>|先根据案例要求自己完成实现，后根据解答改进方法|
 |2/6/23|[C++STL函数对象学习](https://www.bilibili.com/video/BV1et411b73Z?p=242&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/216947897-7bb8a50e-b40f-4416-a78f-46673f0849a4.png" width="150" height=auto alt="函数对象"/><br/>|学习完STL中函数对象部分，并且进行功能的实现|
 |2/7/23|[C++STL常用算法学习](https://www.bilibili.com/video/BV1et411b73Z?p=254&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/217292558-7cbcefbb-2ac3-4abf-8dc0-bfac4fe6a132.png" width="150" height=auto alt="STL常用算法"/><br/>|完成遍历，查找，排序常用算法的学习与实现，后续进行原理学习|
+|2/8/23|[C++STL常用算法学习](https://www.bilibili.com/video/BV1et411b73Z?p=263&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/217484175-04d4bfb0-40ad-4663-97b4-110f9ebedb7e.png" width="150" height=auto alt="STL算法学习"/><br/>|完成拷贝与替换，算术生成，集合常用算法的学习与实现，后续进行原理学习|
 
 
 
