@@ -1,4 +1,4 @@
-# Winter Holiday studying
+# Winter_Vocation_schedule
 
 |日期|标题|封面|学习过程|
 |------|------|------|------|
@@ -24,6 +24,8 @@
 |2/7/23|[C++STL常用算法学习](https://www.bilibili.com/video/BV1et411b73Z?p=254&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/217292558-7cbcefbb-2ac3-4abf-8dc0-bfac4fe6a132.png" width="150" height=auto alt="STL常用算法"/><br/>|完成遍历，查找，排序常用算法的学习与实现，后续进行原理学习|
 |2/8/23|[C++STL常用算法学习](https://www.bilibili.com/video/BV1et411b73Z?p=263&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/217484175-04d4bfb0-40ad-4663-97b4-110f9ebedb7e.png" width="150" height=auto alt="STL算法学习"/><br/>|完成拷贝与替换，算术生成，集合常用算法的学习与实现，后续进行原理学习|
 |2/10/23|[leetcode刷题](https://leetcode.cn/study-plan/algorithms/?progress=jo7qdcj)|<img src ="https://user-images.githubusercontent.com/113875830/218295548-495107fd-d393-41f9-ab67-3811e15c1f3e.png" width ="150" height = auto alt="leetcode"/><br/>|打算后续开始每天至少做一至两道leetcode题|
+|2/12/23|[C++STL演讲比赛流程管理系统项目实现](https://github.com/YanzhaoDrew/WHstudying1/tree/main/SpeechContestSystem)|<img src="https://user-images.githubusercontent.com/113875830/218311218-b421e066-5995-4bcd-bbd2-24ac08411537.png" width="150" height=auto alt="演讲比赛流程管理系统"/><br/>|目前已实现抽签和比赛评委打分功能，后续进行其他功能实现；完成leetcode每天一道题|
+
 
 
 
