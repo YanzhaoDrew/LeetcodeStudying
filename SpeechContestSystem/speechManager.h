@@ -30,6 +30,20 @@ public:
     void speechDraw();
     //比赛
     void speechContest();
+    //显示晋级结果
+    void showScore();
+    //保存记录
+    void saveRecord();
+    //读取记录
+    void loadRecord();
+    //判断文件是否为空
+    bool fileIsEmpty;
+    //存放往届记录的容器
+    map<int, vector<string>>m_Record;
+    //显示往届得分
+    void showRecore();
+    //清空文件
+    void clearRecord();
 
     //成员函数
     //保存第一轮比赛选手编号容器 12 人
