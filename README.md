@@ -25,6 +25,7 @@
 |2/8/23|[C++STL常用算法学习](https://www.bilibili.com/video/BV1et411b73Z?p=263&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src ="https://user-images.githubusercontent.com/113875830/217484175-04d4bfb0-40ad-4663-97b4-110f9ebedb7e.png" width="150" height=auto alt="STL算法学习"/><br/>|完成拷贝与替换，算术生成，集合常用算法的学习与实现，后续进行原理学习|
 |2/10/23|[leetcode刷题](https://leetcode.cn/study-plan/algorithms/?progress=jo7qdcj)|<img src ="https://user-images.githubusercontent.com/113875830/218295548-495107fd-d393-41f9-ab67-3811e15c1f3e.png" width ="150" height = auto alt="leetcode"/><br/>|打算后续开始每天至少做一至两道leetcode题|
 |2/12/23|[C++STL演讲比赛流程管理系统项目实现](https://github.com/YanzhaoDrew/WHstudying1/tree/main/SpeechContestSystem)|<img src="https://user-images.githubusercontent.com/113875830/218311218-b421e066-5995-4bcd-bbd2-24ac08411537.png" width="150" height=auto alt="演讲比赛流程管理系统"/><br/>|目前已实现抽签和比赛评委打分功能，后续进行其他功能实现；完成leetcode每天一道题|
+|2/13/23|[C++STL演讲比赛流程管理系统项目实现]()|<img src="https://user-images.githubusercontent.com/113875830/218400251-638d4800-c176-4d7b-bb42-5a8c34d5021b.png" width="150" height=auto alt="演讲比赛流程管理系统"/><br/>|实现完所需功能|
 
 
 
