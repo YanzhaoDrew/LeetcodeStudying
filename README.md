@@ -28,6 +28,7 @@
 |2/13/23|[C++STL演讲比赛流程管理系统项目实现](https://github.com/YanzhaoDrew/WHstudying1/tree/main/SpeechContestSystem)|<img src="https://user-images.githubusercontent.com/113875830/218400251-638d4800-c176-4d7b-bb42-5a8c34d5021b.png" width="150" height=auto alt="演讲比赛流程管理系统"/><br/>|实现完所需功能|
 |2/15/23|[leetcode做题](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/?envType=study-plan&id=suan-fa-ji-chu&plan=algorithms&plan_progress=jo7qdcj)|<img width="150" height=auto alt="image" src="https://user-images.githubusercontent.com/113875830/219045531-9878eab2-3f99-4582-88a7-3b08bc57c8eb.png">|接触链表，尝试使用双指针|
 |2/17/23|[leetcode做题](https://leetcode.cn/problems/interval-list-intersections/solutions/1677388/shuanzhi-by-tshngps-jdy-i4w2/)|<img src="https://user-images.githubusercontent.com/113875830/219540408-61418332-1838-4d15-ac0d-fd9c0cdf67b3.png" width="150" height=auto alt="leetcode"/><br/>|学习利用双指针的思想完成两区间列表交集的输出|
+|2/18/23|leetcode做题[学习滑动窗口](https://leetcode.cn/problems/find-all-anagrams-in-a-string/solutions/1123971/zhao-dao-zi-fu-chuan-zhong-suo-you-zi-mu-xzin/?languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/219851384-fc1bb76f-2fbd-4865-81df-8612336702ee.png" width="150" height=auto alt="滑动窗口"/><br/>|维护滑动窗口分为维持大窗口和小窗口，根据题目类型分类|
 
 
 
