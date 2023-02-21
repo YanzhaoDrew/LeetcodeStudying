@@ -32,8 +32,6 @@
 |2/19/23|[算法导论学习](https://www.bilibili.com/video/BV1Tb411M7FA?p=2&vd_source=905b1a936b14f4596f66bae3f952df19)&[概率论与数理统计预习](https://www.bilibili.com/video/BV1hD4y1b7Y4?p=5&vd_source=905b1a936b14f4596f66bae3f952df19)|<img width="150" height=auto alt="image" src="https://user-images.githubusercontent.com/113875830/219955729-359f821f-ce8e-407d-845f-c3f543b6e0d9.png">|学习Big O等的意思，后进行整理笔记，数理统计的预习第一章|
 |2/20/23|大一寒假结束|开学第一天|但学习永不止步！后续仍会记录学习进度|
 
-##
-
 ## HumbleZhao
 motto: You wil reap what you sow!
 
