@@ -32,6 +32,7 @@
 |2/19/23|[算法导论学习](https://www.bilibili.com/video/BV1Tb411M7FA?p=2&vd_source=905b1a936b14f4596f66bae3f952df19)&[概率论与数理统计预习](https://www.bilibili.com/video/BV1hD4y1b7Y4?p=5&vd_source=905b1a936b14f4596f66bae3f952df19)|<img width="150" height=auto alt="image" src="https://user-images.githubusercontent.com/113875830/219955729-359f821f-ce8e-407d-845f-c3f543b6e0d9.png">|学习Big O等的意思，后进行整理笔记，数理统计的预习第一章|
 |2/20/23|大一寒假结束|开学第一天|但学习永不止步！后续仍会记录学习进度|
 |2/21/23|[leetcode做题](https://leetcode.cn/problems/number-of-provinces/?envType=study-plan&id=suan-fa-ji-chu&plan=algorithms&plan_progress=jo7qdcj)和[算法导论学习](https://www.bilibili.com/video/BV1Tb411M7FA/?p=2&spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=905b1a936b14f4596f66bae3f952df19)|<img width="150" height=auto alt="image" src="https://user-images.githubusercontent.com/113875830/220382613-dac1570d-858a-4361-aff8-3908dde1763a.png">|学习了[并查集](https://www.bilibili.com/video/BV1jv411a7LK/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=905b1a936b14f4596f66bae3f952df19),和算法导论中渐近符号，递归及其解法|
+|2/23/23|[leetcode做题](https://leetcode.cn/problems/subtree-of-another-tree/?envType=study-plan&id=suan-fa-ji-chu&plan=algorithms&plan_progress=jo7qdcj)|<img src ="https://user-images.githubusercontent.com/113875830/220930965-da0076db-a8e1-48a0-a098-088bf37e2db4.png" width="150" height=auto alt="二叉树"/><br/>|学习关于二叉树的遍历，使用队列和size的巧用|
 
 ## HumbleZhao
 motto: You wil reap what you sow!
