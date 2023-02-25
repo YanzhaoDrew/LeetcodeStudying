@@ -33,7 +33,7 @@
 |2/20/23|大一寒假结束|开学第一天|但学习永不止步！后续仍会记录学习进度|
 |2/21/23|[leetcode做题](https://leetcode.cn/problems/number-of-provinces/?envType=study-plan&id=suan-fa-ji-chu&plan=algorithms&plan_progress=jo7qdcj)和[算法导论学习](https://www.bilibili.com/video/BV1Tb411M7FA/?p=2&spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=905b1a936b14f4596f66bae3f952df19)|<img width="150" height=auto alt="image" src="https://user-images.githubusercontent.com/113875830/220382613-dac1570d-858a-4361-aff8-3908dde1763a.png">|学习了[并查集](https://www.bilibili.com/video/BV1jv411a7LK/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=905b1a936b14f4596f66bae3f952df19),和算法导论中渐近符号，递归及其解法|
 |2/23/23|[leetcode做题](https://leetcode.cn/problems/subtree-of-another-tree/?envType=study-plan&id=suan-fa-ji-chu&plan=algorithms&plan_progress=jo7qdcj)|<img src ="https://user-images.githubusercontent.com/113875830/220930965-da0076db-a8e1-48a0-a098-088bf37e2db4.png" width="150" height=auto alt="二叉树"/><br/>|学习关于二叉树的遍历，使用队列和size的巧用|
-|2/25/23|[智能车应用数据集模型训练]与Ubuntu的vscode的opencv配置|<img src="https://user-images.githubusercontent.com/113875830/221366762-f36f6f41-360b-4322-8242-e7b0a37f4a43.png" width="150" height=auto alt="数据集标记"/><br/>|终于完成Ubuntu的opencv配置，以及学会数据集的模型训练应用|
+|2/25/23|[智能车应用数据集模型训练](https://aistudio.baidu.com/aistudio/projectdetail/5570064?contributionType=1)与Ubuntu的vscode的opencv配置|<img src="https://user-images.githubusercontent.com/113875830/221366762-f36f6f41-360b-4322-8242-e7b0a37f4a43.png" width="150" height=auto alt="数据集标记"/><br/>|终于完成Ubuntu的opencv配置，以及学会数据集的模型训练应用|
 
 ## HumbleZhao
 motto: You wil reap what you sow!
