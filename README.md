@@ -38,5 +38,6 @@
 
 ## HumbleZhao
 motto: You wil reap what you sow!
+       If you got a dream, you got to protect it!
 
 
