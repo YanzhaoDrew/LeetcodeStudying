@@ -35,7 +35,7 @@
 |2/23/23|[leetcode做题](https://leetcode.cn/problems/subtree-of-another-tree/?envType=study-plan&id=suan-fa-ji-chu&plan=algorithms&plan_progress=jo7qdcj)|<img src ="https://user-images.githubusercontent.com/113875830/220930965-da0076db-a8e1-48a0-a098-088bf37e2db4.png" width="150" height=auto alt="二叉树"/><br/>|学习关于二叉树的遍历，使用队列和size的巧用|
 |2/25/23|[智能车应用数据集模型训练](https://aistudio.baidu.com/aistudio/projectdetail/5570064?contributionType=1)与Ubuntu的vscode的opencv配置|<img src="https://user-images.githubusercontent.com/113875830/221366762-f36f6f41-360b-4322-8242-e7b0a37f4a43.png" width="150" height=auto alt="数据集标记"/><br/>|终于完成Ubuntu的opencv配置，以及学会数据集的模型训练应用|
 |2/26/23|[二进制矩阵中最短路径求解](https://leetcode.cn/problems/shortest-path-in-binary-matrix/solutions/980151/1091-er-jin-zhi-ju-zhen-zhong-de-zui-dua-pr7v/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/221390204-d859b7df-98fe-44ea-91a1-20714a2c24dd.png" width="150" height=auto alt="最短路径"/><br/>|使用BFS，广度搜索，队列一个一个搜索，查找最短路径|
-
+|2/27/23|[leetcode被围绕的区域](https://leetcode.cn/problems/surrounded-regions/solutions/5753/cbeats-9465easy-to-understand-by-zzyuting/?orderBy=hot&languageTags=cpp)[算法导论第三课](https://www.bilibili.com/video/BV1Tb411M7FA?p=3&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/221584978-6d3362d0-9c4d-4cd1-b206-d42804e4899d.png" width="150" height=auto alt="算法导论分治法"/><br/>|思路基本正确，就是一些细节没想到，比如在查找矩阵边的时候顺便就可以将与‘O’相邻的位置用DFS判断出来;标记不变的位置为‘1’想到了;算法导论对于分治法有了进一步理解|
 ## HumbleZhao
 motto: You wil reap what you sow!
        If you got a dream, you got to protect it!
