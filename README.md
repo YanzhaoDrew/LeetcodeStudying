@@ -39,6 +39,7 @@
 |2/28/23]|[leetcode_所有可能的路径](https://www.bilibili.com/video/BV1FQ4y1e7RJ/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/222183096-65ceeef6-bedf-4e29-8134-5a7ecdeb5281.png" width="150" height=auto alt="所有可能的路径"/><br/>|加深对于深度搜索DFS的理解与应用|
 |3/1/23|[leetcode_子集等回溯类问题](https://leetcode.cn/problems/subsets/solutions/229569/c-zong-jie-liao-hui-su-wen-ti-lei-xing-dai-ni-gao-/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/222184098-65f12588-468c-4fa0-9643-8bc0ba169ad1.png" width="150" height=auto alt="子集问题"/><br/>|学习尝试使用回溯六步骤解决回溯问题, 学会遇到重复元素的处理方法|
 |3/2/23|[leetcode_全排列2_回溯类](https://www.bilibili.com/video/BV1R84y1i7Tm/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/222455586-ee0f581f-08d9-451d-8af9-177c5267e4a5.png" width="150" height=auto alt="全排列"/><br/>|观看视频学习，树层去重和树枝去重概念弄清，要学会使用临时数组来防止出现重复元素，回溯过程记得加减临时数组|
+|3/3/23|[leetcode_组合求和](https://www.bilibili.com/video/BV1KT4y1M7HJ/?vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/222730282-c06cd991-5f90-40a6-ad3c-cc662a803d91.png" width="150" height=auto alt="组合求和"/><br/>|利用startindex来控制，起始位置，用i相关的数来进行startindex的传递,以及进行剪枝的操作，提高运行速度|
 
 ## HumbleZhao
 motto: You wil reap what you sow!
