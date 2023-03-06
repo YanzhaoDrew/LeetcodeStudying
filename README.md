@@ -42,7 +42,7 @@
 |3/3/23|[leetcode_组合求和](https://www.bilibili.com/video/BV1KT4y1M7HJ/?vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/222730282-c06cd991-5f90-40a6-ad3c-cc662a803d91.png" width="150" height=auto alt="组合求和"/><br/>|利用startindex来控制，起始位置，用i相关的数来进行startindex的传递,以及进行剪枝的操作，提高运行速度|
 |3/4/23|[leetcode_组合求和2](https://leetcode.cn/problems/combination-sum-ii/description/)|<img src="https://user-images.githubusercontent.com/113875830/222907182-82367897-a9ba-46b4-b910-c17f3acbed17.png" width="150" height=auto alt="组合求和2"/><br/>|独立完成，完成对递归，回溯算法的初步理解与实践，学会剪枝，去重等操作,后续完成对Java的学习以及智能车部署模型|
 |3/5/23|[leetcode_电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/solutions/839901/dai-ma-sui-xiang-lu-17-dian-hua-hao-ma-d-ya2x/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/222949378-f4fda8fd-5528-46e1-aaf5-1ba45a8207ee.png" width="150" height=auto alt="回溯算法"/><br/>|读取字符串中的数字可以将对应的字符-‘0’存入int index中，方便读取，回溯算法的加深理解，找出决定纵向和横向长度的因素|
-|3/6/23|[leetcode_22括号组合](https://leetcode.cn/problems/generate-parentheses/solutions/194208/ru-men-ji-bie-de-hui-su-fa-xue-hui-tao-lu-miao-don/?orderBy=hot&languageTags=cpp)||如果分左右括号，可以先递归左边括号，后递归右边括号，保证有完整的一对|
+|3/6/23|[leetcode_22生成括号](https://leetcode.cn/problems/generate-parentheses/solutions/194208/ru-men-ji-bie-de-hui-su-fa-xue-hui-tao-lu-miao-don/?orderBy=hot&languageTags=cpp)||如果分左右括号，可以先递归左边括号，后递归右边括号，保证有完整的一对|
 
 ## HumbleZhao
 motto: You wil reap what you sow!
