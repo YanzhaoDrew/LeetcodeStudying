@@ -43,7 +43,7 @@
 |3/4/23|[leetcode_组合求和2](https://leetcode.cn/problems/combination-sum-ii/description/)|<img src="https://user-images.githubusercontent.com/113875830/222907182-82367897-a9ba-46b4-b910-c17f3acbed17.png" width="150" height=auto alt="组合求和2"/><br/>|独立完成，完成对递归，回溯算法的初步理解与实践，学会剪枝，去重等操作,后续完成对Java的学习以及智能车部署模型|
 |3/5/23|[leetcode_电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/solutions/839901/dai-ma-sui-xiang-lu-17-dian-hua-hao-ma-d-ya2x/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/222949378-f4fda8fd-5528-46e1-aaf5-1ba45a8207ee.png" width="150" height=auto alt="回溯算法"/><br/>|读取字符串中的数字可以将对应的字符-‘0’存入int index中，方便读取，回溯算法的加深理解，找出决定纵向和横向长度的因素|
 |3/6/23|[leetcode_22生成括号](https://leetcode.cn/problems/generate-parentheses/solutions/194208/ru-men-ji-bie-de-hui-su-fa-xue-hui-tao-lu-miao-don/?orderBy=hot&languageTags=cpp)||如果分左右括号，可以先递归左边括号，后递归右边括号，保证有完整的一对|
-|3/7/23|[leetcode_单词搜索_回溯](https://leetcode.cn/problems/word-search/solutions/930096/hui-su-suan-fa-zui-tong-su-yi-dong-de-ji-h2ny/comments/1639520)|||
+|3/7/23|[leetcode_单词搜索_回溯](https://leetcode.cn/problems/word-search/solutions/930096/hui-su-suan-fa-zui-tong-su-yi-dong-de-ji-h2ny/comments/1639520)|<img src="https://user-images.githubusercontent.com/113875830/223307868-7f28726b-168a-4d93-82cf-24cbd44ab247.png" width="150" height=auto alt="单词搜索"/><br/>|枚举起点的时候用if语句判断，每个起点是否为true,而不是直接return递归，枚举回溯过程中，要用临时变量储存原本字符，改变原字符后，最后要变回去|
 
 ## HumbleZhao
 motto: You wil reap what you sow!
