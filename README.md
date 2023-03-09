@@ -45,6 +45,7 @@
 |3/6/23|[leetcode_22生成括号](https://leetcode.cn/problems/generate-parentheses/solutions/194208/ru-men-ji-bie-de-hui-su-fa-xue-hui-tao-lu-miao-don/?orderBy=hot&languageTags=cpp)||如果分左右括号，可以先递归左边括号，后递归右边括号，保证有完整的一对|
 |3/7/23|[leetcode_单词搜索_回溯](https://leetcode.cn/problems/word-search/solutions/930096/hui-su-suan-fa-zui-tong-su-yi-dong-de-ji-h2ny/comments/1639520)|<img src="https://user-images.githubusercontent.com/113875830/223307868-7f28726b-168a-4d93-82cf-24cbd44ab247.png" width="150" height=auto alt="单词搜索"/><br/>|枚举起点的时候用if语句判断，每个起点是否为true,而不是直接return递归，枚举回溯过程中，要用临时变量储存原本字符，改变原字符后，最后要变回去|
 |3/8/23|[leetcode_213打家劫舍](https://www.bilibili.com/video/BV1Te411N7SX/?spm_id_from=333.788&vd_source=905b1a936b14f4596f66bae3f952df19)|[<img src ="https://user-images.githubusercontent.com/113875830/223715065-7e852464-73ea-4023-8252-2be5432d9824.png" width="150" height=auto alt="使用动态规划"/><br/>](https://mp.weixin.qq.com/s/UZ31WdLEEFmBegdgLkJ8Dw)|第一次接触dp，基本原理初步了解，先确定遍历范围，后确定递归式|
+|3/9/23|[leetcode_55跳跃游戏](https://leetcode.cn/problems/jump-game/solutions/1000403/dai-ma-sui-xiang-lu-dai-ni-xue-tou-tan-x-mjc9/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/223901902-b910f38e-10fc-4527-bb79-8332680497bd.png" width="150" height=auto alt="跳跃游戏"/><br/>|转换思路，将跳跃的各种可能转换为可覆盖的范围|
 
 ## HumbleZhao
 motto: You wil reap what you sow!
