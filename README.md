@@ -49,7 +49,9 @@
 |3/10/23|[leetcode_1696跳跃游戏2](https://leetcode.cn/problems/jump-game-vi/solutions/1016842/c-you-xian-ji-dui-lie-dan-diao-dui-lie-d-kjgs/)|<img src="https://user-images.githubusercontent.com/113875830/224350587-55fe3501-2f71-4c54-890c-3c9902c7e6d7.png" width="150" height=auto alt="跳跃游戏2"/><br/>|通过题解有了对动态规划，贪心算法的进一步了解，本题主要思路为：利用题目条件范围控制队列大小和临时数组存储对应下标前进而改变的值等等，详细请看图片中解释|
 |3/11/23|[leetcode_62不同路径](https://leetcode.cn/problems/unique-paths/solutions/2086298/by-carlsun-2-8us2/)|<img src="https://user-images.githubusercontent.com/113875830/224459017-d69a0ab6-46e2-498b-a79d-977af8bc9b6a.png" width="150" height=auto alt="不同路径"/><br/>|通过本题，对于状态转移方程加深了理解
 ## HumbleZhao
-motto: You wil reap what you sow!
+### motto: 
+
+       You wil reap what you sow!
 
        If you got a dream, you got to protect it!
        
