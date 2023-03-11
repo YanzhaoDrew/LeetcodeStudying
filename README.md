@@ -50,6 +50,9 @@
 |3/11/23|[leetcode_62不同路径](https://leetcode.cn/problems/unique-paths/solutions/2086298/by-carlsun-2-8us2/)|<img src="https://user-images.githubusercontent.com/113875830/224459017-d69a0ab6-46e2-498b-a79d-977af8bc9b6a.png" width="150" height=auto alt="不同路径"/><br/>|通过本题，对于状态转移方程加深了理解
 ## HumbleZhao
 motto: You wil reap what you sow!
+
        If you got a dream, you got to protect it!
+       
+       Inner slience yields peace!
 
 
