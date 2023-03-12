@@ -47,7 +47,11 @@
 |3/8/23|[leetcode_213打家劫舍](https://www.bilibili.com/video/BV1Te411N7SX/?spm_id_from=333.788&vd_source=905b1a936b14f4596f66bae3f952df19)|[<img src ="https://user-images.githubusercontent.com/113875830/223715065-7e852464-73ea-4023-8252-2be5432d9824.png" width="150" height=auto alt="使用动态规划"/><br/>](https://mp.weixin.qq.com/s/UZ31WdLEEFmBegdgLkJ8Dw)|第一次接触dp，基本原理初步了解，先确定遍历范围，后确定递归式|
 |3/9/23|[leetcode_55跳跃游戏](https://leetcode.cn/problems/jump-game/solutions/1000403/dai-ma-sui-xiang-lu-dai-ni-xue-tou-tan-x-mjc9/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/223901902-b910f38e-10fc-4527-bb79-8332680497bd.png" width="150" height=auto alt="跳跃游戏"/><br/>|转换思路，将跳跃的各种可能转换为可覆盖的范围|
 |3/10/23|[leetcode_1696跳跃游戏2](https://leetcode.cn/problems/jump-game-vi/solutions/1016842/c-you-xian-ji-dui-lie-dan-diao-dui-lie-d-kjgs/)|<img src="https://user-images.githubusercontent.com/113875830/224350587-55fe3501-2f71-4c54-890c-3c9902c7e6d7.png" width="150" height=auto alt="跳跃游戏2"/><br/>|通过题解有了对动态规划，贪心算法的进一步了解，本题主要思路为：利用题目条件范围控制队列大小和临时数组存储对应下标前进而改变的值等等，详细请看图片中解释|
-|3/11/23|[leetcode_62不同路径](https://leetcode.cn/problems/unique-paths/solutions/2086298/by-carlsun-2-8us2/)|<img src="https://user-images.githubusercontent.com/113875830/224459017-d69a0ab6-46e2-498b-a79d-977af8bc9b6a.png" width="150" height=auto alt="不同路径"/><br/>|通过本题，对于状态转移方程加深了理解
+|3/11/23|[leetcode_62不同路径](https://leetcode.cn/problems/unique-paths/solutions/2086298/by-carlsun-2-8us2/)|<img src="https://user-images.githubusercontent.com/113875830/224459017-d69a0ab6-46e2-498b-a79d-977af8bc9b6a.png" width="150" height=auto alt="不同路径"/><br/>|通过本题，对于状态转移方程加深了理解|
+|3/12/23|[leetcode_5最长回文串](https://leetcode.cn/problems/longest-palindromic-substring/solutions/1013163/dai-ma-sui-xiang-lu-5-zui-chang-hui-wen-kgyl1/)|
+<img src="https://user-images.githubusercontent.com/113875830/224520217-83dc0a65-9337-4579-88f2-93e0c14963e2.png" width="150" height=auto alt="动态规划"/><br/>|利用动态规划和双指针中心扩散方法，其中动态规划主要注意遍历顺序|
+
+
 ## HumbleZhao
 ### motto: 
 
