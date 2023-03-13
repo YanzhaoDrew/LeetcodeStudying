@@ -50,6 +50,7 @@
 |3/11/23|[leetcode_62不同路径](https://leetcode.cn/problems/unique-paths/solutions/2086298/by-carlsun-2-8us2/)|<img src="https://user-images.githubusercontent.com/113875830/224459017-d69a0ab6-46e2-498b-a79d-977af8bc9b6a.png" width="150" height=auto alt="不同路径"/><br/>|通过本题，对于状态转移方程加深了理解|
 |3/12/23|[leetcode_5最长回文串](https://leetcode.cn/problems/longest-palindromic-substring/solutions/1013163/dai-ma-sui-xiang-lu-5-zui-chang-hui-wen-kgyl1/)|<img src="https://user-images.githubusercontent.com/113875830/224520217-83dc0a65-9337-4579-88f2-93e0c14963e2.png" width="150" height=auto alt="动态规划"/><br/>|利用动态规划和双指针中心扩散方法，其中动态规划主要注意遍历顺序|
 |3/13/23|[算法导论第四节](https://www.bilibili.com/video/BV1Tb411M7FA?p=4&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/224726419-9b507848-346c-4d32-b197-1ff1cce760bd.png" width="150" height=auto alt="算法导论"/><br/>|学习快速排序，以及相关基本思想，和最坏最好情况的时间复杂度分别是$$n^2和nlgn$$，学习对快排的优化，即Randomized Quick sort，整理相关知识到笔记本上，后续尝试通过代码实现|
+![image](https://user-images.githubusercontent.com/113875830/224735038-b9e5d408-6b63-4202-8416-ed97c811a418.png)
 
 
 ## HumbleZhao
