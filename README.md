@@ -52,7 +52,7 @@
 |3/13/23|[算法导论第四节](https://www.bilibili.com/video/BV1Tb411M7FA?p=4&vd_source=905b1a936b14f4596f66bae3f952df19)|<img src="https://user-images.githubusercontent.com/113875830/224726419-9b507848-346c-4d32-b197-1ff1cce760bd.png" width="150" height=auto alt="算法导论"/><br/>|学习快速排序，以及相关基本思想，和最坏最好情况的时间复杂度分别是$$n^2和nlgn$$，学习对快排的优化，即Randomized Quick sort，整理相关知识到笔记本上，后续尝试通过代码实现|
 |3/14/23-3/31/23|忙于计设|临时暂停更新|多谅解|
 |3/20/23|[leetcode_解码方法](https://leetcode.cn/problems/decode-ways/description/)|<img width="150" alt="image" src="https://user-images.githubusercontent.com/113875830/226263262-f0f8c0e4-2a98-404c-80e5-e1469adaa08d.png">|初步学会用动态规划的方法划分情况|
-|4/3/23|三天的适应放松回顾期|restart my plan in learning algorithm and doing leetcode||
+|4/3/23|三天的适应放松回顾期|重新恢复更新|restart my plan in learning algorithm and doing leetcode|
 
 ## HumbleZhao
 ### motto: 
