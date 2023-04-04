@@ -54,6 +54,7 @@
 |3/20/23|[leetcode_解码方法](https://leetcode.cn/problems/decode-ways/description/)|<img width="150" alt="image" src="https://user-images.githubusercontent.com/113875830/226263262-f0f8c0e4-2a98-404c-80e5-e1469adaa08d.png">|初步学会用动态规划的方法划分情况|
 |4/3/23|三天的适应放松回顾期|重新恢复更新|restart my plan in learning algorithm and doing leetcode|
 |4/3/23|[leetcode_139单词拆分](https://www.bilibili.com/video/BV1pd4y147Rh/)|<img src="https://user-images.githubusercontent.com/113875830/229545301-6307579b-c8a9-4d39-8f10-3ed2680b69ca.png" width="150" height=auto alt="单词拆分"/><br/>|关键在于dp的含义思考的时候没想到。
+|4/3/23|[leetcode_300最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/solutions/856903/dai-ma-sui-xiang-lu-dai-ni-xue-tou-dpzi-i1kh6/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/229812668-3c1349e8-0603-4bcb-89e4-93913d35ee7c.png" width="150" height=auto alt="最长递增子序列"|重要的是找出dp含义和遍历顺序对于动态规划来说|
 
 ## HumbleZhao
 ### motto: 
