@@ -55,8 +55,7 @@
 |4/3/23|三天的适应放松回顾期|重新恢复更新|restart my plan in learning algorithm and doing leetcode|
 |4/3/23|[leetcode_139单词拆分](https://www.bilibili.com/video/BV1pd4y147Rh/)|<img src="https://user-images.githubusercontent.com/113875830/229545301-6307579b-c8a9-4d39-8f10-3ed2680b69ca.png" width="150" height=auto alt="单词拆分"/><br/>|关键在于dp的含义思考的时候没想到。
 |4/3/23|[leetcode_300最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/solutions/856903/dai-ma-sui-xiang-lu-dai-ni-xue-tou-dpzi-i1kh6/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/229812668-3c1349e8-0603-4bcb-89e4-93913d35ee7c.png" width="150" height=auto alt="最长递增子序列"/><br/>|重要的是找出dp含义和遍历顺序对于动态规划来说|
-|4/3/23|[leetcode_673最长递增子序列个数](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/solutions/556598/673-zui-chang-di-zeng-zi-xu-lie-de-ge-sh-606o/?orderBy=hot&languageTags=cpp)|![image](https://user-images.githubusercontent.com/113875830/230378955-f2bd472f-e967-416c-9030-863057cdaf8c.png)|在上一题的基础上加入count数组,含义为：在递增基础上，到i位置时所具有的最长递增子序列的个数|
-
+|4/6/23|[leetcode_673最长递增子序列个数](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/solutions/556598/673-zui-chang-di-zeng-zi-xu-lie-de-ge-sh-606o/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/230378955-f2bd472f-e967-416c-9030-863057cdaf8c.png" width="150" height=auto alt="最长递增子序列个数"/><br/>|在上一题的基础上加入count数组,含义为：在递增基础上，到i位置时所具有的最长递增子序列的个数|
 ## HumbleZhao
 ### motto: 
 
