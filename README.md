@@ -57,6 +57,7 @@
 |4/3/23|[leetcode_300最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/solutions/856903/dai-ma-sui-xiang-lu-dai-ni-xue-tou-dpzi-i1kh6/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/229812668-3c1349e8-0603-4bcb-89e4-93913d35ee7c.png" width="150" height=auto alt="最长递增子序列"/><br/>|重要的是找出dp含义和遍历顺序对于动态规划来说|
 |4/6/23|[leetcode_673最长递增子序列个数](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/solutions/556598/673-zui-chang-di-zeng-zi-xu-lie-de-ge-sh-606o/?orderBy=hot&languageTags=cpp)|<img src="https://user-images.githubusercontent.com/113875830/230378955-f2bd472f-e967-416c-9030-863057cdaf8c.png" width="150" height=auto alt="最长递增子序列个数"/><br/>|在上一题的基础上加入count数组,含义为：在递增基础上，到i位置时所具有的最长递增子序列的个数|
 |4/8/23|进入省赛，临时调整计划|计划有变|4/19前忙于比赛和slam学习，以及课堂作业完成|
+|5/5/23|[机器学习](https://www.youtube.com/watch?v=yXd2D5J0QDU&list=PLJV_el3uVTsPM2mM-OQzJXziCGJa8nJL8&index=4)|<img src="https://user-images.githubusercontent.com/113875830/236414499-29ab705e-16db-4323-8637-6d1cac0625ec.png" width="150" height=auto/><br/>||
 
 ## HumbleZhao
 ### motto: 
